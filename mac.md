@@ -18,4 +18,13 @@ used to store repositories.
 preserving the main line of code until the changes are ready to be pushed.
 4. Pull requests tell others about changes pushed to a branch in a 
 respository.
-5.
+5. Git switch main.
+6. Git merge merges the remote content references into a local merge 
+commit. Git fetch downloads content from a specified remote respoitory.  
+Git fetch combines git merge and git pull in order.
+7. A merge conflict happens when merging two branches that have competing 
+commits and git needs further instruction on which changes to incorporate 
+in the final merge.
+8. To resolve a merge conflict it is necessary to make changes to the 
+files and then add the changes to the to the new merged content and then 
+make a new commit.
